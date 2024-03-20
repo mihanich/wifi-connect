@@ -63,10 +63,10 @@ WiFi Connect is designed to work on systems like Raspbian or Debian, or run in a
 ### Raspbian/Debian Stretch
 
 WiFi Connect depends on NetworkManager, but by default Raspbian Stretch uses dhcpcd as a network manager. The provided installation shell script disables dhcpcd, installs NetworkManager as the active network manager and downloads and installs WiFi Connect.
-
+MANAGE ARCHITECTURE CORRECTLY!!! armv7 for asus
 Run the following in your terminal, then follow the onscreen instructions:
 
-`bash <(curl -L https://github.com/balena-io/wifi-connect/raw/master/scripts/raspbian-install.sh)`
+`bash <(curl -L https://raw.githubusercontent.com/mihanich/wifi-connect/master/scripts/raspbian-install.sh)`
 
 ### balenaOS
 
